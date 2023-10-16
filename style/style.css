@@ -1,0 +1,39 @@
+header{
+    height: 200px;
+    background-color: #93B5C9;
+}
+
+main{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    width: 30%;
+    height: 100%;
+    position: absolute;    
+}
+
+section{
+    height: 200px;
+    background-color: #AB2849;
+    width: 70%;
+    margin: 20px 0;
+    margin-left: 30%;
+    
+
+}
+
+section:nth-child(2){
+    height: 500px;
+    background-color: #AB2849;
+    position: static;
+    width: 100%;
+    margin: 0;    
+}
+
+footer{
+    height: 100px;
+    background-color: #AB2849;
+    margin: 0 30px 5px 30px;
+}
